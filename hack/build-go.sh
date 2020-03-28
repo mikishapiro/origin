@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash -x 
 
 # This script sets up a go workspace locally and builds all go components.
 source "$(dirname "${BASH_SOURCE}")/lib/init.sh"
