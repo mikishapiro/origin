@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/bin/bash -x
+
+export SRC=/usr/src
+export GOPATH=$SRC/go
+export PATH=$PATH:$GOPATH/bin
+export OS_OUTPUT_GOPATH=1
+export PERMISSIVE_GO=y
 
 # This script sets up a go workspace locally and builds all go components.
 source "$(dirname "${BASH_SOURCE}")/lib/init.sh"
