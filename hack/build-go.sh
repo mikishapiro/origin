@@ -1,5 +1,6 @@
 #!/bin/bash -x
 
+
 export SRC=/usr/src
 export GOPATH=$SRC/go
 export PATH=$PATH:$GOPATH/bin
